@@ -1,0 +1,23 @@
+PODS:
+  - SwiftLint (0.37.0)
+  - VSImagePicker (0.0.1-alpha.9)
+
+DEPENDENCIES:
+  - SwiftLint (= 0.37.0)
+  - VSImagePicker (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  VSImagePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
+  VSImagePicker: 5a210c9457ad8bdb36f0d66aff044434688a76c7
+
+PODFILE CHECKSUM: 9504ffb9ad9cfd1a0e6cb9d2570c882229ff1e13
+
+COCOAPODS: 1.9.3

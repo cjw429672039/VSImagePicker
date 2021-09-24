@@ -1,0 +1,19 @@
+use_frameworks!
+#inhibit_all_warnings!
+
+platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/cjw429672039/Repo.git'
+
+target 'VSImagePicker_Example' do
+  pod 'VSImagePicker', :path => '../'
+
+  pod 'SwiftLint', '0.37.0' #代码规范检测
+
+  target 'VSImagePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
