@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
   s.name             = 'VSImagePicker'
 #  X.Y.Z （主版本号.次版本号.修订号）修复问题但不影响API 时，递增修订号；API 保持向下兼容的新增及修改时，递增次版本号；进行不向下兼容的修改时，递增主版本号
 #  参考链接 https://segmentfault.com/a/1190000011368506  https://semver.org/lang/zh-CN/
-  s.version          = '0.0.1-alpha.10'
+  s.version          = '0.0.1'
   s.summary          = '图片选择组件'
   s.description      = '组件VSImagePicker，用于选择图片，拍照，或者相册'
   s.homepage         = 'https://github.com/cjw429672039/VSImagePicker'
   s.swift_version    = '5.0'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'guolinli' => 'guolinli@etekcity.com.cn' }
+  s.author           = { 'cjw429672039' => 'cjw429672039@163.com' }
   s.source           = { :git => 'https://github.com/cjw429672039/VSImagePicker.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'VSImagePicker/Classes/**/*'
